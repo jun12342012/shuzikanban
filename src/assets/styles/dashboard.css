@@ -1,0 +1,47 @@
+.dashboard {
+  width: 1920px;
+  height: 1080px;
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.dashboard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0, 100, 200, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 20% 100%, rgba(0, 80, 160, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(0, 80, 160, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dashboard > * {
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+  margin-top: 10px;
+  min-height: 0;
+}
+
+.dashboard-body > *:nth-child(1) { animation: fadeInUp 0.5s ease-out 0.1s both; }
+.dashboard-body > *:nth-child(2) { animation: fadeInUp 0.5s ease-out 0.2s both; }
+.dashboard-body > *:nth-child(3) { animation: fadeInUp 0.5s ease-out 0.3s both; }
+.dashboard-body > *:nth-child(4) { animation: fadeInUp 0.5s ease-out 0.4s both; }
+.dashboard-body > *:nth-child(5) { animation: fadeInUp 0.5s ease-out 0.5s both; }
+.dashboard-body > *:nth-child(6) { animation: fadeInUp 0.5s ease-out 0.6s both; }

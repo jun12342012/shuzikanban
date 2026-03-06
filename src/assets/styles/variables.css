@@ -1,0 +1,50 @@
+:root {
+  /* 主背景色 */
+  --bg-primary: #0a1628;
+  --bg-secondary: #0d2137;
+  --bg-card: rgba(10, 40, 70, 0.6);
+  --bg-card-hover: rgba(10, 50, 90, 0.7);
+
+  /* 边框 */
+  --border-primary: rgba(0, 228, 255, 0.3);
+  --border-glow: rgba(0, 228, 255, 0.6);
+  --border-radius: 4px;
+
+  /* 高亮色 */
+  --color-cyan: #00e4ff;
+  --color-cyan-light: #00ffc6;
+  --color-blue: #1890ff;
+
+  /* 数据色 */
+  --color-success: #00ff88;
+  --color-warning: #ff8c00;
+  --color-danger: #ff4757;
+  --color-info: #00b8d4;
+
+  /* 风险等级色 */
+  --color-high-risk: #ff4757;
+  --color-mid-risk: #ff8c00;
+  --color-low-risk: #ffd700;
+  --color-healthy: #00ff88;
+
+  /* 文字色 */
+  --text-primary: #e6f7ff;
+  --text-secondary: rgba(178, 218, 255, 0.75);
+  --text-muted: rgba(140, 180, 220, 0.5);
+  --text-number: #00e4ff;
+
+  /* 字体 */
+  --font-family: 'Microsoft YaHei', 'PingFang SC', -apple-system, sans-serif;
+  --font-number: 'DIN Alternate', 'Orbitron', 'Courier New', monospace;
+
+  /* 间距 */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 12px;
+  --gap-lg: 16px;
+  --gap-xl: 20px;
+
+  /* 阴影 */
+  --shadow-card: 0 0 20px rgba(0, 228, 255, 0.1);
+  --shadow-glow: 0 0 10px rgba(0, 228, 255, 0.3);
+}
